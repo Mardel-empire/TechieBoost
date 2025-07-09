@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TechieBoost</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f5f7fa;
+      color: #333;
+    }
+    header {
+      background: #1e1f26;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background: #292b3e;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      padding: 3rem;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 2.8rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+    .hero button {
+      background: #ff5959;
+      color: white;
+      border: none;
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .features {
+      display: flex;
+      justify-content: space-around;
+      padding: 2rem;
+      background: white;
+    }
+    .feature-box {
+      max-width: 200px;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #1e1f26;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#features">Features</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header class="hero" id="home">
+    <h1>Welcome to TechieBoost</h1>
+    <p>Empowering developers with tools that elevate their code game.</p>
+    <button>Get Started</button>
+  </header>
+
+  <section class="features" id="features">
+    <div class="feature-box">
+      <h3>⚡ Speed</h3>
+      <p>Lightning-fast performance tools optimized for dev workflows.</p>
+    </div>
+    <div class="feature-box">
+      <h3>🎯 Focus</h3>
+      <p>Clean, distraction-free UI that gets out of your way.</p>
+    </div>
+    <div class="feature-box">
+      <h3>🔐 Security</h3>
+      <p>Built-in encryption and best practices for peace of mind.</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 TechieBoost | Crafted with ♥ by Deirdre
+  </footer>
+</body>
+</html>
